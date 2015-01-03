@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC396B071A57F875003FEA2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC396B061A57F875003FEA2D /* Foundation.framework */; };
+		CC396B091A57F875003FEA2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC396B081A57F875003FEA2D /* CoreGraphics.framework */; };
+		CC396B0B1A57F875003FEA2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC396B0A1A57F875003FEA2D /* UIKit.framework */; };
+		CC396B111A57F875003FEA2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC396B0F1A57F875003FEA2D /* InfoPlist.strings */; };
+		CC396B131A57F875003FEA2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC396B121A57F875003FEA2D /* main.m */; };
+		CC396B171A57F875003FEA2D /* QYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC396B161A57F875003FEA2D /* QYAppDelegate.m */; };
+		CC396B191A57F875003FEA2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC396B181A57F875003FEA2D /* Images.xcassets */; };
+		CC396B201A57F875003FEA2D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC396B1F1A57F875003FEA2D /* XCTest.framework */; };
+		CC396B211A57F875003FEA2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC396B061A57F875003FEA2D /* Foundation.framework */; };
+		CC396B221A57F875003FEA2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC396B0A1A57F875003FEA2D /* UIKit.framework */; };
+		CC396B2A1A57F875003FEA2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC396B281A57F875003FEA2D /* InfoPlist.strings */; };
+		CC396B2C1A57F875003FEA2D /* HanLiuQuanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC396B2B1A57F875003FEA2D /* HanLiuQuanTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC396B231A57F875003FEA2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC396AFB1A57F875003FEA2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC396B021A57F875003FEA2D;
+			remoteInfo = HanLiuQuan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC396B031A57F875003FEA2D /* HanLiuQuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanLiuQuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC396B061A57F875003FEA2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC396B081A57F875003FEA2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC396B0A1A57F875003FEA2D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC396B0E1A57F875003FEA2D /* HanLiuQuan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HanLiuQuan-Info.plist"; sourceTree = "<group>"; };
+		CC396B101A57F875003FEA2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC396B121A57F875003FEA2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC396B141A57F875003FEA2D /* HanLiuQuan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HanLiuQuan-Prefix.pch"; sourceTree = "<group>"; };
+		CC396B151A57F875003FEA2D /* QYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYAppDelegate.h; sourceTree = "<group>"; };
+		CC396B161A57F875003FEA2D /* QYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYAppDelegate.m; sourceTree = "<group>"; };
+		CC396B181A57F875003FEA2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC396B1E1A57F875003FEA2D /* HanLiuQuanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanLiuQuanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC396B1F1A57F875003FEA2D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CC396B271A57F875003FEA2D /* HanLiuQuanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HanLiuQuanTests-Info.plist"; sourceTree = "<group>"; };
+		CC396B291A57F875003FEA2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC396B2B1A57F875003FEA2D /* HanLiuQuanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HanLiuQuanTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC396B001A57F875003FEA2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC396B091A57F875003FEA2D /* CoreGraphics.framework in Frameworks */,
+				CC396B0B1A57F875003FEA2D /* UIKit.framework in Frameworks */,
+				CC396B071A57F875003FEA2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC396B1B1A57F875003FEA2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC396B201A57F875003FEA2D /* XCTest.framework in Frameworks */,
+				CC396B221A57F875003FEA2D /* UIKit.framework in Frameworks */,
+				CC396B211A57F875003FEA2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC396AFA1A57F875003FEA2D = {
+			isa = PBXGroup;
+			children = (
+				CC396B0C1A57F875003FEA2D /* HanLiuQuan */,
+				CC396B251A57F875003FEA2D /* HanLiuQuanTests */,
+				CC396B051A57F875003FEA2D /* Frameworks */,
+				CC396B041A57F875003FEA2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC396B041A57F875003FEA2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC396B031A57F875003FEA2D /* HanLiuQuan.app */,
+				CC396B1E1A57F875003FEA2D /* HanLiuQuanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC396B051A57F875003FEA2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC396B061A57F875003FEA2D /* Foundation.framework */,
+				CC396B081A57F875003FEA2D /* CoreGraphics.framework */,
+				CC396B0A1A57F875003FEA2D /* UIKit.framework */,
+				CC396B1F1A57F875003FEA2D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC396B0C1A57F875003FEA2D /* HanLiuQuan */ = {
+			isa = PBXGroup;
+			children = (
+				CC396B151A57F875003FEA2D /* QYAppDelegate.h */,
+				CC396B161A57F875003FEA2D /* QYAppDelegate.m */,
+				CC396B181A57F875003FEA2D /* Images.xcassets */,
+				CC396B0D1A57F875003FEA2D /* Supporting Files */,
+			);
+			path = HanLiuQuan;
+			sourceTree = "<group>";
+		};
+		CC396B0D1A57F875003FEA2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC396B0E1A57F875003FEA2D /* HanLiuQuan-Info.plist */,
+				CC396B0F1A57F875003FEA2D /* InfoPlist.strings */,
+				CC396B121A57F875003FEA2D /* main.m */,
+				CC396B141A57F875003FEA2D /* HanLiuQuan-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC396B251A57F875003FEA2D /* HanLiuQuanTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC396B2B1A57F875003FEA2D /* HanLiuQuanTests.m */,
+				CC396B261A57F875003FEA2D /* Supporting Files */,
+			);
+			path = HanLiuQuanTests;
+			sourceTree = "<group>";
+		};
+		CC396B261A57F875003FEA2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC396B271A57F875003FEA2D /* HanLiuQuanTests-Info.plist */,
+				CC396B281A57F875003FEA2D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC396B021A57F875003FEA2D /* HanLiuQuan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC396B2F1A57F875003FEA2D /* Build configuration list for PBXNativeTarget "HanLiuQuan" */;
+			buildPhases = (
+				CC396AFF1A57F875003FEA2D /* Sources */,
+				CC396B001A57F875003FEA2D /* Frameworks */,
+				CC396B011A57F875003FEA2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HanLiuQuan;
+			productName = HanLiuQuan;
+			productReference = CC396B031A57F875003FEA2D /* HanLiuQuan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC396B1D1A57F875003FEA2D /* HanLiuQuanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC396B321A57F875003FEA2D /* Build configuration list for PBXNativeTarget "HanLiuQuanTests" */;
+			buildPhases = (
+				CC396B1A1A57F875003FEA2D /* Sources */,
+				CC396B1B1A57F875003FEA2D /* Frameworks */,
+				CC396B1C1A57F875003FEA2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC396B241A57F875003FEA2D /* PBXTargetDependency */,
+			);
+			name = HanLiuQuanTests;
+			productName = HanLiuQuanTests;
+			productReference = CC396B1E1A57F875003FEA2D /* HanLiuQuanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC396AFB1A57F875003FEA2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = weiji.info;
+				TargetAttributes = {
+					CC396B1D1A57F875003FEA2D = {
+						TestTargetID = CC396B021A57F875003FEA2D;
+					};
+				};
+			};
+			buildConfigurationList = CC396AFE1A57F875003FEA2D /* Build configuration list for PBXProject "HanLiuQuan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC396AFA1A57F875003FEA2D;
+			productRefGroup = CC396B041A57F875003FEA2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC396B021A57F875003FEA2D /* HanLiuQuan */,
+				CC396B1D1A57F875003FEA2D /* HanLiuQuanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC396B011A57F875003FEA2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC396B111A57F875003FEA2D /* InfoPlist.strings in Resources */,
+				CC396B191A57F875003FEA2D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC396B1C1A57F875003FEA2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC396B2A1A57F875003FEA2D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC396AFF1A57F875003FEA2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC396B171A57F875003FEA2D /* QYAppDelegate.m in Sources */,
+				CC396B131A57F875003FEA2D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC396B1A1A57F875003FEA2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC396B2C1A57F875003FEA2D /* HanLiuQuanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC396B241A57F875003FEA2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC396B021A57F875003FEA2D /* HanLiuQuan */;
+			targetProxy = CC396B231A57F875003FEA2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC396B0F1A57F875003FEA2D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC396B101A57F875003FEA2D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CC396B281A57F875003FEA2D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC396B291A57F875003FEA2D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC396B2D1A57F875003FEA2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC396B2E1A57F875003FEA2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC396B301A57F875003FEA2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HanLiuQuan/HanLiuQuan-Prefix.pch";
+				INFOPLIST_FILE = "HanLiuQuan/HanLiuQuan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CC396B311A57F875003FEA2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HanLiuQuan/HanLiuQuan-Prefix.pch";
+				INFOPLIST_FILE = "HanLiuQuan/HanLiuQuan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CC396B331A57F875003FEA2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HanLiuQuan.app/HanLiuQuan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HanLiuQuan/HanLiuQuan-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HanLiuQuanTests/HanLiuQuanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CC396B341A57F875003FEA2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HanLiuQuan.app/HanLiuQuan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HanLiuQuan/HanLiuQuan-Prefix.pch";
+				INFOPLIST_FILE = "HanLiuQuanTests/HanLiuQuanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC396AFE1A57F875003FEA2D /* Build configuration list for PBXProject "HanLiuQuan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC396B2D1A57F875003FEA2D /* Debug */,
+				CC396B2E1A57F875003FEA2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC396B2F1A57F875003FEA2D /* Build configuration list for PBXNativeTarget "HanLiuQuan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC396B301A57F875003FEA2D /* Debug */,
+				CC396B311A57F875003FEA2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC396B321A57F875003FEA2D /* Build configuration list for PBXNativeTarget "HanLiuQuanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC396B331A57F875003FEA2D /* Debug */,
+				CC396B341A57F875003FEA2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC396AFB1A57F875003FEA2D /* Project object */;
+}
