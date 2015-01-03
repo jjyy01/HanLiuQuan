@@ -1,453 +1,1041 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		CC396B071A57F875003FEA2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC396B061A57F875003FEA2D /* Foundation.framework */; };
-		CC396B091A57F875003FEA2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC396B081A57F875003FEA2D /* CoreGraphics.framework */; };
-		CC396B0B1A57F875003FEA2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC396B0A1A57F875003FEA2D /* UIKit.framework */; };
-		CC396B111A57F875003FEA2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC396B0F1A57F875003FEA2D /* InfoPlist.strings */; };
-		CC396B131A57F875003FEA2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC396B121A57F875003FEA2D /* main.m */; };
-		CC396B171A57F875003FEA2D /* QYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC396B161A57F875003FEA2D /* QYAppDelegate.m */; };
-		CC396B191A57F875003FEA2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC396B181A57F875003FEA2D /* Images.xcassets */; };
-		CC396B201A57F875003FEA2D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC396B1F1A57F875003FEA2D /* XCTest.framework */; };
-		CC396B211A57F875003FEA2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC396B061A57F875003FEA2D /* Foundation.framework */; };
-		CC396B221A57F875003FEA2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC396B0A1A57F875003FEA2D /* UIKit.framework */; };
-		CC396B2A1A57F875003FEA2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC396B281A57F875003FEA2D /* InfoPlist.strings */; };
-		CC396B2C1A57F875003FEA2D /* HanLiuQuanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC396B2B1A57F875003FEA2D /* HanLiuQuanTests.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		CC396B231A57F875003FEA2D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CC396AFB1A57F875003FEA2D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CC396B021A57F875003FEA2D;
-			remoteInfo = HanLiuQuan;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		CC396B031A57F875003FEA2D /* HanLiuQuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanLiuQuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC396B061A57F875003FEA2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		CC396B081A57F875003FEA2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CC396B0A1A57F875003FEA2D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		CC396B0E1A57F875003FEA2D /* HanLiuQuan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HanLiuQuan-Info.plist"; sourceTree = "<group>"; };
-		CC396B101A57F875003FEA2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CC396B121A57F875003FEA2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CC396B141A57F875003FEA2D /* HanLiuQuan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HanLiuQuan-Prefix.pch"; sourceTree = "<group>"; };
-		CC396B151A57F875003FEA2D /* QYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYAppDelegate.h; sourceTree = "<group>"; };
-		CC396B161A57F875003FEA2D /* QYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYAppDelegate.m; sourceTree = "<group>"; };
-		CC396B181A57F875003FEA2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		CC396B1E1A57F875003FEA2D /* HanLiuQuanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanLiuQuanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC396B1F1A57F875003FEA2D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		CC396B271A57F875003FEA2D /* HanLiuQuanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HanLiuQuanTests-Info.plist"; sourceTree = "<group>"; };
-		CC396B291A57F875003FEA2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CC396B2B1A57F875003FEA2D /* HanLiuQuanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HanLiuQuanTests.m; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		CC396B001A57F875003FEA2D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC396B091A57F875003FEA2D /* CoreGraphics.framework in Frameworks */,
-				CC396B0B1A57F875003FEA2D /* UIKit.framework in Frameworks */,
-				CC396B071A57F875003FEA2D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC396B1B1A57F875003FEA2D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC396B201A57F875003FEA2D /* XCTest.framework in Frameworks */,
-				CC396B221A57F875003FEA2D /* UIKit.framework in Frameworks */,
-				CC396B211A57F875003FEA2D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		CC396AFA1A57F875003FEA2D = {
-			isa = PBXGroup;
-			children = (
-				CC396B0C1A57F875003FEA2D /* HanLiuQuan */,
-				CC396B251A57F875003FEA2D /* HanLiuQuanTests */,
-				CC396B051A57F875003FEA2D /* Frameworks */,
-				CC396B041A57F875003FEA2D /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		CC396B041A57F875003FEA2D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CC396B031A57F875003FEA2D /* HanLiuQuan.app */,
-				CC396B1E1A57F875003FEA2D /* HanLiuQuanTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CC396B051A57F875003FEA2D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CC396B061A57F875003FEA2D /* Foundation.framework */,
-				CC396B081A57F875003FEA2D /* CoreGraphics.framework */,
-				CC396B0A1A57F875003FEA2D /* UIKit.framework */,
-				CC396B1F1A57F875003FEA2D /* XCTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CC396B0C1A57F875003FEA2D /* HanLiuQuan */ = {
-			isa = PBXGroup;
-			children = (
-				CC396B151A57F875003FEA2D /* QYAppDelegate.h */,
-				CC396B161A57F875003FEA2D /* QYAppDelegate.m */,
-				CC396B181A57F875003FEA2D /* Images.xcassets */,
-				CC396B0D1A57F875003FEA2D /* Supporting Files */,
-			);
-			path = HanLiuQuan;
-			sourceTree = "<group>";
-		};
-		CC396B0D1A57F875003FEA2D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CC396B0E1A57F875003FEA2D /* HanLiuQuan-Info.plist */,
-				CC396B0F1A57F875003FEA2D /* InfoPlist.strings */,
-				CC396B121A57F875003FEA2D /* main.m */,
-				CC396B141A57F875003FEA2D /* HanLiuQuan-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CC396B251A57F875003FEA2D /* HanLiuQuanTests */ = {
-			isa = PBXGroup;
-			children = (
-				CC396B2B1A57F875003FEA2D /* HanLiuQuanTests.m */,
-				CC396B261A57F875003FEA2D /* Supporting Files */,
-			);
-			path = HanLiuQuanTests;
-			sourceTree = "<group>";
-		};
-		CC396B261A57F875003FEA2D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CC396B271A57F875003FEA2D /* HanLiuQuanTests-Info.plist */,
-				CC396B281A57F875003FEA2D /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		CC396B021A57F875003FEA2D /* HanLiuQuan */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CC396B2F1A57F875003FEA2D /* Build configuration list for PBXNativeTarget "HanLiuQuan" */;
-			buildPhases = (
-				CC396AFF1A57F875003FEA2D /* Sources */,
-				CC396B001A57F875003FEA2D /* Frameworks */,
-				CC396B011A57F875003FEA2D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HanLiuQuan;
-			productName = HanLiuQuan;
-			productReference = CC396B031A57F875003FEA2D /* HanLiuQuan.app */;
-			productType = "com.apple.product-type.application";
-		};
-		CC396B1D1A57F875003FEA2D /* HanLiuQuanTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CC396B321A57F875003FEA2D /* Build configuration list for PBXNativeTarget "HanLiuQuanTests" */;
-			buildPhases = (
-				CC396B1A1A57F875003FEA2D /* Sources */,
-				CC396B1B1A57F875003FEA2D /* Frameworks */,
-				CC396B1C1A57F875003FEA2D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CC396B241A57F875003FEA2D /* PBXTargetDependency */,
-			);
-			name = HanLiuQuanTests;
-			productName = HanLiuQuanTests;
-			productReference = CC396B1E1A57F875003FEA2D /* HanLiuQuanTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		CC396AFB1A57F875003FEA2D /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				CLASSPREFIX = QY;
-				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = weiji.info;
-				TargetAttributes = {
-					CC396B1D1A57F875003FEA2D = {
-						TestTargetID = CC396B021A57F875003FEA2D;
-					};
-				};
-			};
-			buildConfigurationList = CC396AFE1A57F875003FEA2D /* Build configuration list for PBXProject "HanLiuQuan" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = CC396AFA1A57F875003FEA2D;
-			productRefGroup = CC396B041A57F875003FEA2D /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				CC396B021A57F875003FEA2D /* HanLiuQuan */,
-				CC396B1D1A57F875003FEA2D /* HanLiuQuanTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		CC396B011A57F875003FEA2D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC396B111A57F875003FEA2D /* InfoPlist.strings in Resources */,
-				CC396B191A57F875003FEA2D /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC396B1C1A57F875003FEA2D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC396B2A1A57F875003FEA2D /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		CC396AFF1A57F875003FEA2D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC396B171A57F875003FEA2D /* QYAppDelegate.m in Sources */,
-				CC396B131A57F875003FEA2D /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC396B1A1A57F875003FEA2D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC396B2C1A57F875003FEA2D /* HanLiuQuanTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CC396B241A57F875003FEA2D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CC396B021A57F875003FEA2D /* HanLiuQuan */;
-			targetProxy = CC396B231A57F875003FEA2D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		CC396B0F1A57F875003FEA2D /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CC396B101A57F875003FEA2D /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		CC396B281A57F875003FEA2D /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CC396B291A57F875003FEA2D /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		CC396B2D1A57F875003FEA2D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		CC396B2E1A57F875003FEA2D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		CC396B301A57F875003FEA2D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HanLiuQuan/HanLiuQuan-Prefix.pch";
-				INFOPLIST_FILE = "HanLiuQuan/HanLiuQuan-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		CC396B311A57F875003FEA2D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HanLiuQuan/HanLiuQuan-Prefix.pch";
-				INFOPLIST_FILE = "HanLiuQuan/HanLiuQuan-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		CC396B331A57F875003FEA2D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HanLiuQuan.app/HanLiuQuan";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HanLiuQuan/HanLiuQuan-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "HanLiuQuanTests/HanLiuQuanTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		CC396B341A57F875003FEA2D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HanLiuQuan.app/HanLiuQuan";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HanLiuQuan/HanLiuQuan-Prefix.pch";
-				INFOPLIST_FILE = "HanLiuQuanTests/HanLiuQuanTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		CC396AFE1A57F875003FEA2D /* Build configuration list for PBXProject "HanLiuQuan" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CC396B2D1A57F875003FEA2D /* Debug */,
-				CC396B2E1A57F875003FEA2D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CC396B2F1A57F875003FEA2D /* Build configuration list for PBXNativeTarget "HanLiuQuan" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CC396B301A57F875003FEA2D /* Debug */,
-				CC396B311A57F875003FEA2D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		CC396B321A57F875003FEA2D /* Build configuration list for PBXNativeTarget "HanLiuQuanTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CC396B331A57F875003FEA2D /* Debug */,
-				CC396B341A57F875003FEA2D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = CC396AFB1A57F875003FEA2D /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>011F38314DFAF6E4833E86C9</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-HanLiuQuan.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>69EDFADD0574DD23FD76F7EF</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-HanLiuQuan/Pods-HanLiuQuan-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>9109A1E0446D50CDB4566862</key>
+		<dict>
+			<key>fileRef</key>
+			<string>011F38314DFAF6E4833E86C9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>98CD83BD844B4C75F774B510</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E7298396410D1B664DCCDA7D</string>
+				<string>DA9A593028FBBBFED33A5645</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC396AFA1A57F875003FEA2D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CC396B0C1A57F875003FEA2D</string>
+				<string>CC396B251A57F875003FEA2D</string>
+				<string>CC396B051A57F875003FEA2D</string>
+				<string>CC396B041A57F875003FEA2D</string>
+				<string>98CD83BD844B4C75F774B510</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC396AFB1A57F875003FEA2D</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>CLASSPREFIX</key>
+				<string>QY</string>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>weiji.info</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>CC396B1D1A57F875003FEA2D</key>
+					<dict>
+						<key>TestTargetID</key>
+						<string>CC396B021A57F875003FEA2D</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>CC396AFE1A57F875003FEA2D</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>CC396AFA1A57F875003FEA2D</string>
+			<key>productRefGroup</key>
+			<string>CC396B041A57F875003FEA2D</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>CC396B021A57F875003FEA2D</string>
+				<string>CC396B1D1A57F875003FEA2D</string>
+			</array>
+		</dict>
+		<key>CC396AFE1A57F875003FEA2D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>CC396B2D1A57F875003FEA2D</string>
+				<string>CC396B2E1A57F875003FEA2D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>CC396AFF1A57F875003FEA2D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>CC396B171A57F875003FEA2D</string>
+				<string>CC396B131A57F875003FEA2D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>CC396B001A57F875003FEA2D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>CC396B091A57F875003FEA2D</string>
+				<string>CC396B0B1A57F875003FEA2D</string>
+				<string>CC396B071A57F875003FEA2D</string>
+				<string>9109A1E0446D50CDB4566862</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>CC396B011A57F875003FEA2D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>CC396B111A57F875003FEA2D</string>
+				<string>CC396B191A57F875003FEA2D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>CC396B021A57F875003FEA2D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>CC396B2F1A57F875003FEA2D</string>
+			<key>buildPhases</key>
+			<array>
+				<string>D8078C1F7B765FF5C2633D1E</string>
+				<string>CC396AFF1A57F875003FEA2D</string>
+				<string>CC396B001A57F875003FEA2D</string>
+				<string>CC396B011A57F875003FEA2D</string>
+				<string>69EDFADD0574DD23FD76F7EF</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>HanLiuQuan</string>
+			<key>productName</key>
+			<string>HanLiuQuan</string>
+			<key>productReference</key>
+			<string>CC396B031A57F875003FEA2D</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>CC396B031A57F875003FEA2D</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>HanLiuQuan.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>CC396B041A57F875003FEA2D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CC396B031A57F875003FEA2D</string>
+				<string>CC396B1E1A57F875003FEA2D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC396B051A57F875003FEA2D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CC396B061A57F875003FEA2D</string>
+				<string>CC396B081A57F875003FEA2D</string>
+				<string>CC396B0A1A57F875003FEA2D</string>
+				<string>CC396B1F1A57F875003FEA2D</string>
+				<string>011F38314DFAF6E4833E86C9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC396B061A57F875003FEA2D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>CC396B071A57F875003FEA2D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CC396B061A57F875003FEA2D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CC396B081A57F875003FEA2D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>CC396B091A57F875003FEA2D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CC396B081A57F875003FEA2D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CC396B0A1A57F875003FEA2D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>CC396B0B1A57F875003FEA2D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CC396B0A1A57F875003FEA2D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CC396B0C1A57F875003FEA2D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CC396B151A57F875003FEA2D</string>
+				<string>CC396B161A57F875003FEA2D</string>
+				<string>CC396B181A57F875003FEA2D</string>
+				<string>CC396B0D1A57F875003FEA2D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>HanLiuQuan</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC396B0D1A57F875003FEA2D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CC396B0E1A57F875003FEA2D</string>
+				<string>CC396B0F1A57F875003FEA2D</string>
+				<string>CC396B121A57F875003FEA2D</string>
+				<string>CC396B141A57F875003FEA2D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC396B0E1A57F875003FEA2D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>HanLiuQuan-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC396B0F1A57F875003FEA2D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CC396B101A57F875003FEA2D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC396B101A57F875003FEA2D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC396B111A57F875003FEA2D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CC396B0F1A57F875003FEA2D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CC396B121A57F875003FEA2D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC396B131A57F875003FEA2D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CC396B121A57F875003FEA2D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CC396B141A57F875003FEA2D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>HanLiuQuan-Prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC396B151A57F875003FEA2D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>QYAppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC396B161A57F875003FEA2D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>QYAppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC396B171A57F875003FEA2D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CC396B161A57F875003FEA2D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CC396B181A57F875003FEA2D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Images.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC396B191A57F875003FEA2D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CC396B181A57F875003FEA2D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CC396B1A1A57F875003FEA2D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>CC396B2C1A57F875003FEA2D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>CC396B1B1A57F875003FEA2D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>CC396B201A57F875003FEA2D</string>
+				<string>CC396B221A57F875003FEA2D</string>
+				<string>CC396B211A57F875003FEA2D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>CC396B1C1A57F875003FEA2D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>CC396B2A1A57F875003FEA2D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>CC396B1D1A57F875003FEA2D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>CC396B321A57F875003FEA2D</string>
+			<key>buildPhases</key>
+			<array>
+				<string>CC396B1A1A57F875003FEA2D</string>
+				<string>CC396B1B1A57F875003FEA2D</string>
+				<string>CC396B1C1A57F875003FEA2D</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>CC396B241A57F875003FEA2D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>HanLiuQuanTests</string>
+			<key>productName</key>
+			<string>HanLiuQuanTests</string>
+			<key>productReference</key>
+			<string>CC396B1E1A57F875003FEA2D</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>CC396B1E1A57F875003FEA2D</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>HanLiuQuanTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>CC396B1F1A57F875003FEA2D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>XCTest.framework</string>
+			<key>path</key>
+			<string>Library/Frameworks/XCTest.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>CC396B201A57F875003FEA2D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CC396B1F1A57F875003FEA2D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CC396B211A57F875003FEA2D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CC396B061A57F875003FEA2D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CC396B221A57F875003FEA2D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CC396B0A1A57F875003FEA2D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CC396B231A57F875003FEA2D</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>CC396AFB1A57F875003FEA2D</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>CC396B021A57F875003FEA2D</string>
+			<key>remoteInfo</key>
+			<string>HanLiuQuan</string>
+		</dict>
+		<key>CC396B241A57F875003FEA2D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>CC396B021A57F875003FEA2D</string>
+			<key>targetProxy</key>
+			<string>CC396B231A57F875003FEA2D</string>
+		</dict>
+		<key>CC396B251A57F875003FEA2D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CC396B2B1A57F875003FEA2D</string>
+				<string>CC396B261A57F875003FEA2D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>HanLiuQuanTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC396B261A57F875003FEA2D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CC396B271A57F875003FEA2D</string>
+				<string>CC396B281A57F875003FEA2D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC396B271A57F875003FEA2D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>HanLiuQuanTests-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC396B281A57F875003FEA2D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CC396B291A57F875003FEA2D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC396B291A57F875003FEA2D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC396B2A1A57F875003FEA2D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CC396B281A57F875003FEA2D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CC396B2B1A57F875003FEA2D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>HanLiuQuanTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC396B2C1A57F875003FEA2D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CC396B2B1A57F875003FEA2D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CC396B2D1A57F875003FEA2D</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>CC396B2E1A57F875003FEA2D</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>CC396B2F1A57F875003FEA2D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>CC396B301A57F875003FEA2D</string>
+				<string>CC396B311A57F875003FEA2D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>CC396B301A57F875003FEA2D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>E7298396410D1B664DCCDA7D</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>HanLiuQuan/HanLiuQuan-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>HanLiuQuan/HanLiuQuan-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>CC396B311A57F875003FEA2D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>DA9A593028FBBBFED33A5645</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>HanLiuQuan/HanLiuQuan-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>HanLiuQuan/HanLiuQuan-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>CC396B321A57F875003FEA2D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>CC396B331A57F875003FEA2D</string>
+				<string>CC396B341A57F875003FEA2D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>CC396B331A57F875003FEA2D</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/HanLiuQuan.app/HanLiuQuan</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>HanLiuQuan/HanLiuQuan-Prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>HanLiuQuanTests/HanLiuQuanTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>CC396B341A57F875003FEA2D</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/HanLiuQuan.app/HanLiuQuan</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>HanLiuQuan/HanLiuQuan-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>HanLiuQuanTests/HanLiuQuanTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>D8078C1F7B765FF5C2633D1E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>DA9A593028FBBBFED33A5645</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-HanLiuQuan.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-HanLiuQuan/Pods-HanLiuQuan.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E7298396410D1B664DCCDA7D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-HanLiuQuan.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-HanLiuQuan/Pods-HanLiuQuan.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>CC396AFB1A57F875003FEA2D</string>
+</dict>
+</plist>
